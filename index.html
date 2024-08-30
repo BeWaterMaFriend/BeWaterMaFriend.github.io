@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="back"> <!-- fazendo a parte dos links da pagina -->
+        <nav class="nav">
+            <ul class="parte-cima"> 
+                <li><a href="#nave-sobre">Sobre Mim</a></li>
+                <li><a href="#nave-form">Formação</a></li>
+                <li><a href="#nave-port">Portfólio</a></li>
+                <li><a href="#nave-cont">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="eu"> <!-- colocando mais sobre mim -->
+            <h3>
+                <img src="imgs/Kauan.png" title="Eu" width="380" height="280" alt="Foto"> <br>
+                <h2>Kauan Ivo Dos Santos</h2>
+            </h3>
+        </div>
+    </div>
+
+    <section id="nave-sobre" class="background-sec1"> <!-- contando mais sobre mim -->
+        <div class="sobre">
+            <h2 class="sobre-h2">Saiba mais sobre Mim</h2>
+            <img src="imgs/pc-sobre.jpg" title="fundo" width="700" height="350">
+            <div class="me">
+                
+                <p>Kauan Ivo é um estudante de programação de 20 anos do Parana, apaixonado por tecnologia e inovação.<br> Desde cedo, Kauan se interessou por computadores e, ao ingressar na faculdade de análise e desenvolvimento de sistemas , mergulhou de cabeça no mundo da programação.</p>
+                <P>Além de programar, Kauan é um entusiasta de tecnologia e adora explorar novas linguagens de programação e ferramentas. <br>Ele passa horas em fóruns e blogs, sempre em busca de aprender algo novo e se manter atualizado com as últimas tendências.</P>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="nave-form" class="formacao"> <!-- explicando sobre minha formação -->
+        <h2>Formação</h2>
+            <img src="imgs/49944.png" title="formacao" width="400px" height="400px">
+        <div class="form-lista">
+            <ul>
+                <li>ETEC-UBATUBA-SP - CURSO DE INFORMATICA (2019 - 2022)</li>
+                <li>UNINTER - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS (2024 - 2026 PREVISTO)</li>
+                <li>ENAP - CURSO DE EXCEL</li>
+                <li>ILAC-CANADA - CURSO DE INGLES</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="nave-port" class="port"> <!-- colocando um portfolio improvisado porque nao tenho um... -->
+        <h2>
+            ACESSE MEU GITHUB
+        </h2>
+        <a href="https://github.com/BeWaterMaFriend/portfolio-uninter.git" ><img src="imgs/github_PNG23.png"> </a>
+       
+    </section>
+
+    <section id="nave-cont" class="cont"> <!-- fazendo inputs para entrar em contato comigo -->
+        <h1>ENTRE EM CONTATO: </h1>
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="texto-cont" class="input-text">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" class="input-email">
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea rows="2" cols="25">...</textarea>
+            </div>
+            <button class="button-enviar" type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+    
+</body>
+</html>

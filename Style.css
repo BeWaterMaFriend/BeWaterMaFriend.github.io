@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.back {
+    background-image: url('imgs/1600w-lKp1cXK1ybY.webp');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center; /* Centraliza a navegação horizontalmente */
+    padding: 40px 7%;
+}
+
+.parte-cima {
+    display: flex;
+    list-style-type: none; /* Remove os marcadores da lista */
+    gap: 20px; /* Espaço entre os itens da lista */
+}
+
+.parte-cima li {
+    display: inline-block;
+}
+
+.parte-cima li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Ajuste a cor do texto conforme necessário */
+    padding: 8px 20px; /* Padding dos itens da lista */
+}
+
+.eu {
+    text-align: center; /* Centraliza a imagem dentro do div .eu */
+    margin-top: 20px; /* Espaço acima da imagem */
+}
+
+.eu img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.eu h2{
+    color: rgb(95, 136, 136);
+}
+
+
+.background-sec1{
+    background-color:rgb(157, 163, 157);
+    padding: 100px ;
+    text-align: center;
+    font-family:cursive;
+}
+
+.formacao {
+    padding: 100px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.form-lista ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+
+}
+
+.port{
+    text-align: center;
+    background-color: darkslategray;
+}
+
+.port h2{
+    padding: 50px;
+}
+
+.cont{
+    text-align: center;
+    padding: 150px;
+    background-color: moccasin;
+}
+
+.button-enviar{
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    background-color: goldenrod;
+}
+
+.button-enviar:hover {
+    background-color: #21d12a;
+}
+
+
+
+
+
+
